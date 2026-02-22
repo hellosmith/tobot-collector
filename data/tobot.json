@@ -18,7 +18,20 @@
         "X 소드",
         "비행 가능"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-x_01.png"
     },
     {
       "id": "tobot-y",
@@ -35,7 +48,20 @@
         "Y 캐논",
         "고속 이동"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-y_01.png"
     },
     {
       "id": "tobot-z",
@@ -52,7 +78,20 @@
         "Z 아머",
         "강력한 방어"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-z_01.png"
     },
     {
       "id": "tobot-d",
@@ -69,7 +108,20 @@
         "사이렌 공격",
         "수사 능력"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_10.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_11.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_12.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-d_02.png"
     },
     {
       "id": "tobot-w",
@@ -85,7 +137,20 @@
         "W 윙",
         "공중 전투"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_10.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_11.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-w_01.png"
     },
     {
       "id": "tobot-titan",
@@ -102,7 +167,20 @@
         "타이탄 실드",
         "초강력 파워"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-titan_01.png"
     },
     {
       "id": "tobot-tritan",
@@ -118,7 +196,20 @@
         "트라이탄 캐논",
         "최강의 합체 기술"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-tritan_01.png"
     },
     {
       "id": "tobot-evo-x",
@@ -134,7 +225,20 @@
         "에볼루션 X 소드",
         "강화 비행"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-x_01.png"
     },
     {
       "id": "tobot-evo-y",
@@ -150,7 +254,20 @@
         "에볼루션 Y 부스터",
         "초고속 대시"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_10.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_11.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-evo-y_01.png"
     },
     {
       "id": "tobot-c",
@@ -166,7 +283,20 @@
         "자연 탐사 장비",
         "C 캐논"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-c_01.png"
     },
     {
       "id": "tobot-r",
@@ -182,7 +312,20 @@
         "R 터보",
         "드리프트 공격"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_10.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_11.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_12.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_13.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-r_02.png"
     },
     {
       "id": "tobot-k",
@@ -198,7 +341,20 @@
         "K 펀치",
         "터보 차지"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_10.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_11.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_12.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-k_02.png"
     },
     {
       "id": "tobot-v",
@@ -214,7 +370,20 @@
         "V 소드",
         "V 실드"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-v_01.png"
     },
     {
       "id": "tobot-monster",
@@ -230,7 +399,20 @@
         "몬스터 크래시",
         "지면 충격파"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-monster_01.png"
     },
     {
       "id": "tobot-lightning",
@@ -246,7 +428,20 @@
         "라이트닝 볼트",
         "전기 공격"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-lightning_01.png"
     },
     {
       "id": "tobot-stealth",
@@ -262,7 +457,20 @@
         "스텔스 모드",
         "투명화"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_10.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_11.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-stealth_01.png"
     },
     {
       "id": "tobot-rocket",
@@ -278,7 +486,20 @@
         "로켓 부스터",
         "미사일 공격"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-rocket_01.png"
     },
     {
       "id": "tobot-captain-police",
@@ -294,7 +515,20 @@
         "폴리스 건",
         "구속 장치"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-captain-police_01.png"
     },
     {
       "id": "tobot-giga-7",
@@ -311,7 +545,20 @@
         "기가 소드",
         "기가 실드"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-giga-7_01.png"
     },
     {
       "id": "tobot-galaxy-detective-x",
@@ -327,7 +574,20 @@
         "갤럭시 스캐너",
         "X 블래스터"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-x_01.png"
     },
     {
       "id": "tobot-galaxy-detective-y",
@@ -343,7 +603,20 @@
         "갤럭시 부스터",
         "Y 레이저"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-galaxy-detective-y_01.png"
     },
     {
       "id": "tobot-deltatron",
@@ -359,7 +632,20 @@
         "델타 캐논",
         "듀얼 사이렌"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-deltatron_01.png"
     },
     {
       "id": "tobot-zero",
@@ -375,7 +661,20 @@
         "제로 대시",
         "제로 부스트"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-zero_01.png"
     },
     {
       "id": "tobot-mini",
@@ -391,7 +690,20 @@
         "소형 변신",
         "팀 합동 공격"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-mini_01.png"
     },
     {
       "id": "tobot-athlon-tornado",
@@ -407,7 +719,20 @@
         "토네이도 스핀",
         "바람 공격"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-tornado_01.png"
     },
     {
       "id": "tobot-athlon-rocky",
@@ -423,7 +748,20 @@
         "로키 펀치",
         "방어 모드"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-rocky_01.png"
     },
     {
       "id": "tobot-athlon-metron",
@@ -439,7 +777,20 @@
         "메트론 레일건",
         "고속 이동"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-metron_01.png"
     },
     {
       "id": "tobot-athlon-vulcan",
@@ -455,7 +806,20 @@
         "워터 캐논",
         "화염 방어"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_10.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_11.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-vulcan_02.png"
     },
     {
       "id": "tobot-athlon-ambulon",
@@ -471,7 +835,20 @@
         "힐링 빔",
         "응급 구조"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-ambulon_01.png"
     },
     {
       "id": "tobot-athlon-magma6",
@@ -487,7 +864,20 @@
         "마그마 피니시",
         "초합체 기술"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-athlon-magma6_01.png"
     },
     {
       "id": "tobot-master-v",
@@ -503,7 +893,20 @@
         "마스터 소드",
         "마스터 실드"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot-master-v_01.png"
     },
     {
       "id": "tobot2-alpha",
@@ -519,7 +922,20 @@
         "알파 슬래시",
         "알파 실드"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_10.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_11.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-alpha_02.png"
     },
     {
       "id": "tobot2-beta",
@@ -535,7 +951,20 @@
         "베타 대시",
         "베타 캐논"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-beta_01.png"
     },
     {
       "id": "tobot2-theta",
@@ -551,7 +980,20 @@
         "세타 크래시",
         "파괴 모드"
       ],
-      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif",
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_01.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_02.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_03.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_04.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_05.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_06.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_07.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_08.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_09.png",
+        "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/tobot/tobot2-theta_01.png"
     }
   ]
 }

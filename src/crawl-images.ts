@@ -1,18 +1,19 @@
 #!/usr/bin/env tsx
 
 /**
- * 또봇 & 메탈카드봇 이미지 대량 크롤링 + 배경 투명화
+ * 또봇 & 메탈카드봇 고해상도 이미지 대량 크롤링 + 배경 투명화
  *
- * - 캐릭터당 최대 N장 이미지 수집 (구글 이미지 검색)
- * - 썸네일 클릭 → 원본 고해상도 이미지 URL 추출
- * - 모든 이미지 배경 자동 제거 (투명 PNG)
+ * - 구글 이미지 HTML 소스에서 원본 고해상도 URL 직접 추출
+ * - 여러 검색어로 캐릭터당 최대 N장 수집
+ * - AI 배경 제거 → 투명 PNG (1024x1024)
  *
  * 사용법:
- *   npx tsx src/crawl-images.ts                        # 전체 (기본 10장)
- *   npx tsx src/crawl-images.ts --target tobot         # 또봇만
+ *   npx tsx src/crawl-images.ts                        # 전체
+ *   npx tsx src/crawl-images.ts --target tobot
  *   npx tsx src/crawl-images.ts --target metalcardbot
- *   npx tsx src/crawl-images.ts --max 5                # 캐릭터당 최대 5장
+ *   npx tsx src/crawl-images.ts --max 15               # 캐릭터당 최대 15장
  *   npx tsx src/crawl-images.ts --skip-bg              # 배경 제거 스킵
+ *   npx tsx src/crawl-images.ts --size 1500            # 출력 크기 변경
  */
 
 import * as fs from "node:fs";
@@ -21,27 +22,27 @@ import axios from "axios";
 import chalk from "chalk";
 import ora from "ora";
 import sharp from "sharp";
-import puppeteer, { type Browser, type Page } from "puppeteer";
+import puppeteer, { type Browser } from "puppeteer";
 import type { CollectionResult } from "./types.js";
 
+// ─── 설정 ────────────────────────────────────────────────────────
 const DATA_DIR = path.resolve("data");
 const IMAGES_DIR = path.resolve("images");
-const MAX_IMAGES_DEFAULT = 10;
-const IMAGE_SIZE = 500;
-const SEARCH_DELAY = 2500;
-const DOWNLOAD_DELAY = 300;
+const SEARCH_DELAY = 2000;
+const MIN_WIDTH = 400;         // 최소 원본 해상도
 
 const args = process.argv.slice(2);
 const targetArg = args.includes("--target") ? args[args.indexOf("--target") + 1] : "all";
-const maxImages = args.includes("--max") ? parseInt(args[args.indexOf("--max") + 1]) : MAX_IMAGES_DEFAULT;
+const maxImages = args.includes("--max") ? parseInt(args[args.indexOf("--max") + 1]) : 10;
 const skipBg = args.includes("--skip-bg");
+const outputSize = args.includes("--size") ? parseInt(args[args.indexOf("--size") + 1]) : 1024;
 
 // ─── 배경 제거 ───────────────────────────────────────────────────
 let removeBgFn: ((input: Blob) => Promise<Blob>) | null = null;
 
 async function initBgRemoval() {
   if (skipBg) {
-    console.log(chalk.dim("  배경 제거: OFF (--skip-bg)"));
+    console.log(chalk.dim("  배경 제거: OFF"));
     return;
   }
   const spinner = ora("배경 제거 AI 모델 로딩 중...").start();
@@ -65,156 +66,127 @@ async function removeBg(buf: Buffer): Promise<Buffer> {
   }
 }
 
-// ─── 구글 이미지 검색 → 썸네일 클릭 → 원본 URL 추출 ─────────────
-async function searchAndCollectImages(
-  page: Page,
+// ─── 구글 이미지 HTML에서 원본 URL 직접 추출 ─────────────────────
+// 구글은 페이지 HTML 내 JS 객체에 ["url", width, height] 형태로 원본 URL을 넣어둠
+async function extractOriginalImageUrls(
+  browser: Browser,
   query: string,
-  maxCount: number,
-): Promise<{ url: string; isBase64: boolean }[]> {
-  const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}&tbm=isch&hl=ko`;
+): Promise<{ url: string; width: number; height: number }[]> {
+  const page = await browser.newPage();
+  await page.setUserAgent(
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+  );
+  await page.setViewport({ width: 1440, height: 900 });
 
   try {
-    await page.goto(searchUrl, { waitUntil: "networkidle2", timeout: 25000 });
+    const url = `https://www.google.com/search?q=${encodeURIComponent(query)}&tbm=isch&hl=ko`;
+    await page.goto(url, { waitUntil: "networkidle2", timeout: 25000 });
+
+    // 스크롤해서 더 많은 이미지 로드
+    for (let i = 0; i < 5; i++) {
+      await page.evaluate(() => window.scrollBy(0, window.innerHeight * 2));
+      await new Promise((r) => setTimeout(r, 500));
+    }
+
+    // "결과 더보기" 버튼 클릭
+    try {
+      const moreBtn = await page.$('input[value="결과 더보기"]');
+      if (moreBtn) {
+        await moreBtn.click();
+        await new Promise((r) => setTimeout(r, 2000));
+        for (let i = 0; i < 3; i++) {
+          await page.evaluate(() => window.scrollBy(0, window.innerHeight * 2));
+          await new Promise((r) => setTimeout(r, 500));
+        }
+      }
+    } catch {}
+
+    const html = await page.content();
+
+    // 원본 URL 패턴 추출: ["https://...image.jpg", width, height]
+    const pattern = /\["(https?:\/\/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)",\s*(\d+),\s*(\d+)\]/gi;
+    const results: { url: string; width: number; height: number }[] = [];
+    const seen = new Set<string>();
+    let match;
+
+    while ((match = pattern.exec(html)) !== null) {
+      const imgUrl = match[1].replace(/\\u003d/g, "=").replace(/\\u0026/g, "&");
+      const w = parseInt(match[2]);
+      const h = parseInt(match[3]);
+
+      if (
+        w >= MIN_WIDTH &&
+        h >= MIN_WIDTH &&
+        !imgUrl.includes("google.com") &&
+        !imgUrl.includes("gstatic.com") &&
+        !imgUrl.includes("googleusercontent.com") &&
+        !seen.has(imgUrl)
+      ) {
+        seen.add(imgUrl);
+        results.push({ url: imgUrl, width: w, height: h });
+      }
+    }
+
+    // 해상도 높은 순 정렬
+    results.sort((a, b) => b.width * b.height - a.width * a.height);
+
+    return results;
   } catch {
     return [];
+  } finally {
+    await page.close();
   }
-
-  // 스크롤
-  for (let i = 0; i < 5; i++) {
-    await page.evaluate(() => window.scrollBy(0, window.innerHeight));
-    await new Promise((r) => setTimeout(r, 600));
-  }
-
-  // 방법 1: 썸네일을 클릭해서 사이드 패널에서 원본 URL 추출
-  const results: { url: string; isBase64: boolean }[] = [];
-
-  // 모든 썸네일 img 요소 선택
-  const thumbs = await page.$$("img.YQ4gaf");
-  const totalThumbs = Math.min(thumbs.length, maxCount * 3);
-
-  for (let i = 0; i < totalThumbs && results.length < maxCount; i++) {
-    try {
-      // 썸네일 클릭
-      await thumbs[i].click();
-      await new Promise((r) => setTimeout(r, 1200));
-
-      // 사이드 패널에서 원본 이미지 URL 추출
-      const imgUrl = await page.evaluate(() => {
-        // 큰 이미지를 표시하는 img 요소 찾기
-        const bigImgs = document.querySelectorAll("img.sFlh5c, img.iPVvYb, img[jsname='kn3ccd'], img.r48jcc");
-        for (const img of bigImgs) {
-          const src = (img as HTMLImageElement).src;
-          if (src && src.startsWith("http") && !src.includes("gstatic.com") && !src.includes("google.com")) {
-            return src;
-          }
-        }
-
-        // data-src 확인
-        const allImgs = document.querySelectorAll("img[data-src]");
-        for (const img of allImgs) {
-          const src = (img as HTMLElement).dataset.src || "";
-          if (src.startsWith("http") && !src.includes("gstatic") && !src.includes("google.com")) {
-            return src;
-          }
-        }
-
-        return null;
-      });
-
-      if (imgUrl && !results.some((r) => r.url === imgUrl)) {
-        results.push({ url: imgUrl, isBase64: false });
-        continue;
-      }
-
-      // 원본 못 찾으면 base64 썸네일 저장
-      const base64 = await thumbs[i].evaluate((el) => {
-        const img = el as HTMLImageElement;
-        if (img.src?.startsWith("data:image") && img.naturalWidth >= 100) return img.src;
-        return null;
-      });
-
-      if (base64 && !results.some((r) => r.url === base64)) {
-        results.push({ url: base64, isBase64: true });
-      }
-    } catch {
-      continue;
-    }
-  }
-
-  // 방법 2: base64 썸네일 추가 수집 (부족분)
-  if (results.length < maxCount) {
-    const base64Images = await page.evaluate(
-      ({ minW, needed }: { minW: number; needed: number }) => {
-        const imgs: string[] = [];
-        document.querySelectorAll("img").forEach((img) => {
-          if (imgs.length >= needed) return;
-          const src = img.src;
-          if (src?.startsWith("data:image") && img.naturalWidth >= minW && img.naturalHeight >= minW) {
-            imgs.push(src);
-          }
-        });
-        return imgs;
-      },
-      { minW: 100, needed: maxCount - results.length + 5 },
-    );
-
-    for (const b64 of base64Images) {
-      if (results.length >= maxCount) break;
-      if (!results.some((r) => r.url === b64)) {
-        results.push({ url: b64, isBase64: true });
-      }
-    }
-  }
-
-  return results.slice(0, maxCount);
 }
 
-// ─── 이미지 다운로드 & 처리 ──────────────────────────────────────
-async function processImage(
-  source: { url: string; isBase64: boolean },
-  outputPath: string,
-): Promise<boolean> {
+// ─── 이미지 다운로드 + 배경 제거 + 리사이즈 ─────────────────────
+async function downloadAndProcess(url: string, outputPath: string): Promise<boolean> {
   try {
-    let buffer: Buffer;
+    const response = await axios.get(url, {
+      responseType: "arraybuffer",
+      timeout: 20000,
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+        "Accept": "image/*,*/*",
+        "Referer": "https://www.google.com/",
+      },
+      maxContentLength: 30 * 1024 * 1024,
+    });
 
-    if (source.isBase64) {
-      // data:image/jpeg;base64,xxxxx → Buffer
-      const match = source.url.match(/^data:image\/\w+;base64,(.+)$/);
-      if (!match) return false;
-      buffer = Buffer.from(match[1], "base64");
-    } else {
-      const response = await axios.get(source.url, {
-        responseType: "arraybuffer",
-        timeout: 15000,
-        headers: { "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" },
-        maxContentLength: 20 * 1024 * 1024,
-      });
-      buffer = Buffer.from(response.data);
-    }
+    let buffer = Buffer.from(response.data);
 
     // 유효성 체크
     const meta = await sharp(buffer).metadata();
-    if (!meta.width || !meta.height || meta.width < 50 || meta.height < 50) return false;
+    if (!meta.width || !meta.height) return false;
+    if (meta.width < MIN_WIDTH || meta.height < MIN_WIDTH) return false;
 
     // 배경 제거
     buffer = await removeBg(buffer);
 
     // 리사이즈 + 투명 PNG
     await sharp(buffer)
-      .resize(IMAGE_SIZE, IMAGE_SIZE, {
+      .resize(outputSize, outputSize, {
         fit: "contain",
         background: { r: 0, g: 0, b: 0, alpha: 0 },
       })
-      .png()
+      .png({ compressionLevel: 6 })
       .toFile(outputPath);
+
+    // 결과 파일 크기 체크 (너무 작으면 깨진 이미지)
+    const stat = fs.statSync(outputPath);
+    if (stat.size < 5000) {
+      fs.unlinkSync(outputPath);
+      return false;
+    }
 
     return true;
   } catch {
+    // 실패 시 파일 정리
+    try { fs.unlinkSync(outputPath); } catch {}
     return false;
   }
 }
 
-// ─── 캐릭터별 이미지 크롤링 ──────────────────────────────────────
+// ─── 캐릭터별 크롤링 ────────────────────────────────────────────
 async function crawlCharacter(
   browser: Browser,
   charName: string,
@@ -223,53 +195,52 @@ async function crawlCharacter(
   outputDir: string,
   maxCount: number,
 ): Promise<string[]> {
-  const page = await browser.newPage();
-  await page.setUserAgent(
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-  );
-  await page.setViewport({ width: 1440, height: 900 });
-
-  // 여러 검색어로 이미지 수집
+  // 다양한 검색어로 이미지 최대한 수집
   const queries = [
-    `${charName} ${franchise} 로봇`,
-    `${charName} ${franchise} 장난감 PNG 투명`,
-    `${charName} tobot robot toy`,
+    `${charName} ${franchise} 로봇 공식 이미지`,
+    `${charName} ${franchise} 변신 로봇 장난감`,
+    `${charName} ${franchise} PNG 투명 배경`,
+    `${charName} ${franchise} robot official`,
+    `${charName} ${franchise} toy figure`,
   ];
 
-  const allSources = new Map<string, { url: string; isBase64: boolean }>();
+  const allUrls = new Map<string, { url: string; width: number; height: number }>();
 
   for (const query of queries) {
-    if (allSources.size >= maxCount * 2) break;
-    const imgs = await searchAndCollectImages(page, query, maxCount);
+    if (allUrls.size >= maxCount * 4) break;
+
+    const imgs = await extractOriginalImageUrls(browser, query);
     for (const img of imgs) {
-      const key = img.isBase64 ? img.url.slice(0, 100) : img.url;
-      if (!allSources.has(key)) allSources.set(key, img);
+      if (!allUrls.has(img.url)) {
+        allUrls.set(img.url, img);
+      }
     }
+
     await new Promise((r) => setTimeout(r, SEARCH_DELAY));
   }
 
-  await page.close();
-
-  // 다운로드 & 처리
+  // 해상도 높은 순으로 다운로드 시도
+  const sorted = [...allUrls.values()].sort((a, b) => b.width * b.height - a.width * a.height);
   const paths: string[] = [];
   let idx = 0;
 
-  for (const source of allSources.values()) {
+  for (const img of sorted) {
     if (paths.length >= maxCount) break;
     idx++;
 
     const filename = `${charId}_${String(idx).padStart(2, "0")}.png`;
     const outputPath = path.join(outputDir, filename);
 
+    // 이미 존재하면 스킵
     if (fs.existsSync(outputPath)) {
       paths.push(outputPath);
       continue;
     }
 
-    const ok = await processImage(source, outputPath);
-    if (ok) paths.push(outputPath);
-
-    await new Promise((r) => setTimeout(r, DOWNLOAD_DELAY));
+    const ok = await downloadAndProcess(img.url, outputPath);
+    if (ok) {
+      paths.push(outputPath);
+    }
   }
 
   return paths;
@@ -308,20 +279,35 @@ async function processCollection(
       if (paths.length > 0) char.image_local = paths[0];
       totalImages += paths.length;
 
-      spinner.succeed(`${tag} ${chalk.bold(char.name)}: ${chalk.green(`${paths.length}장`)}`);
-    } catch {
+      const sizes = paths.map((p) => {
+        const s = fs.statSync(p).size;
+        return `${(s / 1024).toFixed(0)}K`;
+      });
+
+      spinner.succeed(
+        `${tag} ${chalk.bold(char.name)}: ${chalk.green(`${paths.length}장`)} ${chalk.dim(sizes.join(", "))}`,
+      );
+    } catch (err) {
       spinner.fail(`${tag} ${char.name}: 실패`);
     }
   }
 
+  // 저장
   fs.writeFileSync(filePath, JSON.stringify(collection, null, 2), "utf-8");
+
   console.log(chalk.bold.green(`\n  ✅ ${collection.franchise}: 총 ${totalImages}장`));
+  console.log(chalk.dim(`     위치: ${outputDir}/`));
 }
 
 // ─── 메인 ────────────────────────────────────────────────────────
 async function main() {
-  console.log(chalk.bold.cyan("\n🖼️  이미지 대량 크롤링 + 배경 투명화\n"));
-  console.log(chalk.dim(`  대상: ${targetArg} | 최대: ${maxImages}장/캐릭터 | 배경제거: ${skipBg ? "OFF" : "ON"}`));
+  console.log(chalk.bold.cyan("\n🖼️  고해상도 이미지 크롤링 + 배경 투명화\n"));
+  console.log(chalk.dim(`  대상: ${targetArg}`));
+  console.log(chalk.dim(`  캐릭터당 최대: ${maxImages}장`));
+  console.log(chalk.dim(`  출력 크기: ${outputSize}x${outputSize}px`));
+  console.log(chalk.dim(`  최소 원본: ${MIN_WIDTH}px 이상만 수집`));
+  console.log(chalk.dim(`  배경 제거: ${skipBg ? "OFF" : "ON"}`));
+  console.log();
 
   await initBgRemoval();
 

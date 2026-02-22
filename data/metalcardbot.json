@@ -16,7 +16,20 @@
         "파이어 혼",
         "돌진 공격",
         "양자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aries_01.png"
     },
     {
       "id": "mcb-taurus",
@@ -31,7 +44,20 @@
         "불 혼",
         "지진 스톰프",
         "황소자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-taurus_01.png"
     },
     {
       "id": "mcb-gemini",
@@ -46,7 +72,20 @@
         "트윈 슬래시",
         "분신술",
         "쌍둥이자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_10.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_11.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-gemini_01.png"
     },
     {
       "id": "mcb-cancer",
@@ -61,7 +100,20 @@
         "크랩 크러시",
         "워터 실드",
         "게자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-cancer_01.png"
     },
     {
       "id": "mcb-leo",
@@ -76,7 +128,20 @@
         "라이온 로어",
         "킹 슬래시",
         "사자자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-leo_01.png"
     },
     {
       "id": "mcb-virgo",
@@ -91,7 +156,20 @@
         "퓨리티 빔",
         "힐링 라이트",
         "처녀자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-virgo_01.png"
     },
     {
       "id": "mcb-libra",
@@ -106,7 +184,20 @@
         "밸런스 소드",
         "저스티스 스케일",
         "천칭자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-libra_01.png"
     },
     {
       "id": "mcb-scorpio",
@@ -121,7 +212,20 @@
         "포이즌 테일",
         "독침 공격",
         "전갈자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-scorpio_01.png"
     },
     {
       "id": "mcb-sagittarius",
@@ -136,7 +240,20 @@
         "스타 애로우",
         "궁수의 눈",
         "사수자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-sagittarius_01.png"
     },
     {
       "id": "mcb-capricorn",
@@ -151,7 +268,20 @@
         "마운틴 크래시",
         "바위 방어",
         "염소자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-capricorn_01.png"
     },
     {
       "id": "mcb-aquarius",
@@ -166,7 +296,20 @@
         "아쿠아 스트림",
         "워터 월",
         "물병자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-aquarius_01.png"
     },
     {
       "id": "mcb-pisces",
@@ -181,7 +324,20 @@
         "피시 스플래시",
         "쌍어 공격",
         "물고기자리의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-pisces_01.png"
     },
     {
       "id": "mcb-king-leo",
@@ -196,7 +352,20 @@
         "킹 슬래시 피니시",
         "로열 로어",
         "합체 필살기"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-king-leo_01.png"
     },
     {
       "id": "mcb-mega-scorpio",
@@ -210,7 +379,20 @@
       "features": [
         "메가 포이즌",
         "다크 테일 스트라이크"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-mega-scorpio_01.png"
     },
     {
       "id": "mcb-ultra-aries",
@@ -225,7 +407,20 @@
         "울트라 파이어 혼",
         "강화 돌진",
         "울트라 모드"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-aries_01.png"
     },
     {
       "id": "mcb-ultra-leo",
@@ -239,7 +434,20 @@
       "features": [
         "울트라 라이온 로어",
         "킹 오브 킹즈"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-leo_01.png"
     },
     {
       "id": "mcb-ultra-scorpio",
@@ -253,7 +461,20 @@
       "features": [
         "울트라 포이즌 테일",
         "다크 울트라 모드"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-ultra-scorpio_01.png"
     },
     {
       "id": "mcb-titan-aries",
@@ -268,7 +489,20 @@
         "타이탄 파이어 스톰",
         "최종 진화",
         "타이탄 모드"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-aries_01.png"
     },
     {
       "id": "mcb-titan-leo",
@@ -283,7 +517,20 @@
         "타이탄 로어",
         "킹 오브 비스트",
         "타이탄 모드"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_04.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_10.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-titan-leo_01.png"
     },
     {
       "id": "mcb-galaxy-dragon",
@@ -298,7 +545,20 @@
         "갤럭시 브레스",
         "드래곤 윙",
         "우주의 힘"
-      ]
+      ],
+      "images": [
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_01.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_02.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_03.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_05.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_06.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_07.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_08.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_09.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_10.png",
+        "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_11.png"
+      ],
+      "image_local": "/Users/smith/Projects/tobot-collector/images/metalcardbot/mcb-galaxy-dragon_01.png"
     }
   ]
 }
