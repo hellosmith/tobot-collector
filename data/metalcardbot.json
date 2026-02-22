@@ -1,0 +1,304 @@
+{
+  "franchise": "메탈카드봇 (Metal Cardbot)",
+  "collected_at": "2026-02-22T05:03:18.845Z",
+  "total_count": 20,
+  "characters": [
+    {
+      "id": "mcb-aries",
+      "name": "아리에스",
+      "name_en": "Aries",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "빨간색",
+      "type": "단일",
+      "description": "양자리 메탈카드봇. 불꽃 속성의 리더.",
+      "features": [
+        "파이어 혼",
+        "돌진 공격",
+        "양자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-taurus",
+      "name": "타우러스",
+      "name_en": "Taurus",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "갈색/금색",
+      "type": "단일",
+      "description": "황소자리 메탈카드봇. 강력한 파워.",
+      "features": [
+        "불 혼",
+        "지진 스톰프",
+        "황소자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-gemini",
+      "name": "제미니",
+      "name_en": "Gemini",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "노란색",
+      "type": "듀얼",
+      "description": "쌍둥이자리 메탈카드봇. 두 가지 형태로 변신.",
+      "features": [
+        "트윈 슬래시",
+        "분신술",
+        "쌍둥이자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-cancer",
+      "name": "캔서",
+      "name_en": "Cancer",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "은색/파란색",
+      "type": "단일",
+      "description": "게자리 메탈카드봇. 단단한 방어력.",
+      "features": [
+        "크랩 크러시",
+        "워터 실드",
+        "게자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-leo",
+      "name": "레오",
+      "name_en": "Leo",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "금색/주황색",
+      "type": "단일",
+      "description": "사자자리 메탈카드봇. 용맹한 왕의 기품.",
+      "features": [
+        "라이온 로어",
+        "킹 슬래시",
+        "사자자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-virgo",
+      "name": "비르고",
+      "name_en": "Virgo",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "흰색/보라색",
+      "type": "단일",
+      "description": "처녀자리 메탈카드봇. 정밀한 공격.",
+      "features": [
+        "퓨리티 빔",
+        "힐링 라이트",
+        "처녀자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-libra",
+      "name": "리브라",
+      "name_en": "Libra",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "하늘색/은색",
+      "type": "단일",
+      "description": "천칭자리 메탈카드봇. 균형과 정의.",
+      "features": [
+        "밸런스 소드",
+        "저스티스 스케일",
+        "천칭자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-scorpio",
+      "name": "스콜피오",
+      "name_en": "Scorpio",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "보라색/검정색",
+      "type": "단일",
+      "description": "전갈자리 메탈카드봇. 치명적인 독침.",
+      "features": [
+        "포이즌 테일",
+        "독침 공격",
+        "전갈자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-sagittarius",
+      "name": "사지타리우스",
+      "name_en": "Sagittarius",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "파란색/보라색",
+      "type": "단일",
+      "description": "사수자리 메탈카드봇. 정확한 원거리 공격.",
+      "features": [
+        "스타 애로우",
+        "궁수의 눈",
+        "사수자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-capricorn",
+      "name": "카프리콘",
+      "name_en": "Capricorn",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "검정색/금색",
+      "type": "단일",
+      "description": "염소자리 메탈카드봇. 인내와 지혜.",
+      "features": [
+        "마운틴 크래시",
+        "바위 방어",
+        "염소자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-aquarius",
+      "name": "아쿠아리우스",
+      "name_en": "Aquarius",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "파란색",
+      "type": "단일",
+      "description": "물병자리 메탈카드봇. 물 속성 마스터.",
+      "features": [
+        "아쿠아 스트림",
+        "워터 월",
+        "물병자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-pisces",
+      "name": "파이시스",
+      "name_en": "Pisces",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "분홍색/하늘색",
+      "type": "듀얼",
+      "description": "물고기자리 메탈카드봇. 신비로운 물의 힘.",
+      "features": [
+        "피시 스플래시",
+        "쌍어 공격",
+        "물고기자리의 힘"
+      ]
+    },
+    {
+      "id": "mcb-king-leo",
+      "name": "킹 레오",
+      "name_en": "King Leo",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "금색",
+      "type": "합체",
+      "description": "레오 중심의 합체 메탈카드봇. 최강의 파워.",
+      "features": [
+        "킹 슬래시 피니시",
+        "로열 로어",
+        "합체 필살기"
+      ]
+    },
+    {
+      "id": "mcb-mega-scorpio",
+      "name": "메가 스콜피오",
+      "name_en": "Mega Scorpio",
+      "series": "메탈카드봇",
+      "season": "1기",
+      "color": "진보라/검정",
+      "type": "합체",
+      "description": "스콜피오 중심 합체. 다크 파워.",
+      "features": [
+        "메가 포이즌",
+        "다크 테일 스트라이크"
+      ]
+    },
+    {
+      "id": "mcb-ultra-aries",
+      "name": "울트라 아리에스",
+      "name_en": "Ultra Aries",
+      "series": "메탈카드봇 울트라",
+      "season": "울트라",
+      "color": "빨간색/금색",
+      "type": "강화형",
+      "description": "아리에스의 울트라 강화 형태.",
+      "features": [
+        "울트라 파이어 혼",
+        "강화 돌진",
+        "울트라 모드"
+      ]
+    },
+    {
+      "id": "mcb-ultra-leo",
+      "name": "울트라 레오",
+      "name_en": "Ultra Leo",
+      "series": "메탈카드봇 울트라",
+      "season": "울트라",
+      "color": "금색/흰색",
+      "type": "강화형",
+      "description": "레오의 울트라 강화 형태. 최강의 왕.",
+      "features": [
+        "울트라 라이온 로어",
+        "킹 오브 킹즈"
+      ]
+    },
+    {
+      "id": "mcb-ultra-scorpio",
+      "name": "울트라 스콜피오",
+      "name_en": "Ultra Scorpio",
+      "series": "메탈카드봇 울트라",
+      "season": "울트라",
+      "color": "보라색/은색",
+      "type": "강화형",
+      "description": "스콜피오의 울트라 강화 형태.",
+      "features": [
+        "울트라 포이즌 테일",
+        "다크 울트라 모드"
+      ]
+    },
+    {
+      "id": "mcb-titan-aries",
+      "name": "타이탄 아리에스",
+      "name_en": "Titan Aries",
+      "series": "메탈카드봇 타이탄",
+      "season": "타이탄",
+      "color": "빨간색/금색/은색",
+      "type": "타이탄",
+      "description": "아리에스의 최종 진화 형태.",
+      "features": [
+        "타이탄 파이어 스톰",
+        "최종 진화",
+        "타이탄 모드"
+      ]
+    },
+    {
+      "id": "mcb-titan-leo",
+      "name": "타이탄 레오",
+      "name_en": "Titan Leo",
+      "series": "메탈카드봇 타이탄",
+      "season": "타이탄",
+      "color": "금색/빨간색",
+      "type": "타이탄",
+      "description": "레오의 최종 진화 형태. 절대적 왕.",
+      "features": [
+        "타이탄 로어",
+        "킹 오브 비스트",
+        "타이탄 모드"
+      ]
+    },
+    {
+      "id": "mcb-galaxy-dragon",
+      "name": "갤럭시 드래곤",
+      "name_en": "Galaxy Dragon",
+      "series": "메탈카드봇",
+      "season": "특별",
+      "color": "보라색/금색",
+      "type": "스페셜",
+      "description": "13번째 별자리 뱀주인자리의 드래곤형 카드봇.",
+      "features": [
+        "갤럭시 브레스",
+        "드래곤 윙",
+        "우주의 힘"
+      ]
+    }
+  ]
+}

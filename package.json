@@ -1,0 +1,30 @@
+{
+  "name": "tobot-collector",
+  "version": "1.0.0",
+  "description": "또봇 & 메탈카드봇 캐릭터 데이터 수집기 for weloveit.co.kr",
+  "type": "module",
+  "scripts": {
+    "collect:tobot": "tsx src/collect-tobot.ts",
+    "collect:metalcardbot": "tsx src/collect-metalcardbot.ts",
+    "collect:all": "tsx src/collect-tobot.ts && tsx src/collect-metalcardbot.ts",
+    "scrape:images": "tsx src/scrape-images.ts",
+    "generate:seed": "tsx src/generate-seed.ts",
+    "dev": "tsx src/collect-tobot.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0",
+    "fs-extra": "^11.2.0",
+    "ora": "^8.1.0",
+    "p-limit": "^6.1.0",
+    "puppeteer": "^24.0.0",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
