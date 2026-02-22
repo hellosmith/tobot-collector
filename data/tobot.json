@@ -1,6 +1,6 @@
 {
   "franchise": "또봇 (Tobot)",
-  "collected_at": "2026-02-22T05:03:13.517Z",
+  "collected_at": "2026-02-22T05:08:25.391Z",
   "total_count": 34,
   "characters": [
     {
@@ -17,7 +17,8 @@
         "X 실드",
         "X 소드",
         "비행 가능"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-y",
@@ -33,7 +34,8 @@
         "Y 부스터",
         "Y 캐논",
         "고속 이동"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-z",
@@ -49,7 +51,8 @@
         "Z 해머",
         "Z 아머",
         "강력한 방어"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-d",
@@ -65,7 +68,8 @@
         "D 건",
         "사이렌 공격",
         "수사 능력"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-w",
@@ -80,7 +84,8 @@
       "features": [
         "W 윙",
         "공중 전투"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-titan",
@@ -96,7 +101,8 @@
         "타이탄 소드",
         "타이탄 실드",
         "초강력 파워"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-tritan",
@@ -111,7 +117,8 @@
       "features": [
         "트라이탄 캐논",
         "최강의 합체 기술"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-evo-x",
@@ -126,7 +133,8 @@
       "features": [
         "에볼루션 X 소드",
         "강화 비행"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-evo-y",
@@ -141,7 +149,8 @@
       "features": [
         "에볼루션 Y 부스터",
         "초고속 대시"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-c",
@@ -156,7 +165,8 @@
       "features": [
         "자연 탐사 장비",
         "C 캐논"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-r",
@@ -171,7 +181,8 @@
       "features": [
         "R 터보",
         "드리프트 공격"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-k",
@@ -186,7 +197,8 @@
       "features": [
         "K 펀치",
         "터보 차지"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-v",
@@ -201,7 +213,8 @@
       "features": [
         "V 소드",
         "V 실드"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-monster",
@@ -216,7 +229,8 @@
       "features": [
         "몬스터 크래시",
         "지면 충격파"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-lightning",
@@ -231,7 +245,8 @@
       "features": [
         "라이트닝 볼트",
         "전기 공격"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-stealth",
@@ -246,7 +261,8 @@
       "features": [
         "스텔스 모드",
         "투명화"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-rocket",
@@ -261,7 +277,8 @@
       "features": [
         "로켓 부스터",
         "미사일 공격"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-captain-police",
@@ -276,7 +293,8 @@
       "features": [
         "폴리스 건",
         "구속 장치"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-giga-7",
@@ -292,7 +310,8 @@
         "기가 캐논",
         "기가 소드",
         "기가 실드"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-galaxy-detective-x",
@@ -307,7 +326,8 @@
       "features": [
         "갤럭시 스캐너",
         "X 블래스터"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-galaxy-detective-y",
@@ -322,7 +342,8 @@
       "features": [
         "갤럭시 부스터",
         "Y 레이저"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-deltatron",
@@ -337,7 +358,8 @@
       "features": [
         "델타 캐논",
         "듀얼 사이렌"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-zero",
@@ -352,7 +374,8 @@
       "features": [
         "제로 대시",
         "제로 부스트"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-mini",
@@ -367,7 +390,8 @@
       "features": [
         "소형 변신",
         "팀 합동 공격"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-athlon-tornado",
@@ -382,7 +406,8 @@
       "features": [
         "토네이도 스핀",
         "바람 공격"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-athlon-rocky",
@@ -397,7 +422,8 @@
       "features": [
         "로키 펀치",
         "방어 모드"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-athlon-metron",
@@ -412,7 +438,8 @@
       "features": [
         "메트론 레일건",
         "고속 이동"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-athlon-vulcan",
@@ -427,7 +454,8 @@
       "features": [
         "워터 캐논",
         "화염 방어"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-athlon-ambulon",
@@ -442,7 +470,8 @@
       "features": [
         "힐링 빔",
         "응급 구조"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-athlon-magma6",
@@ -457,7 +486,8 @@
       "features": [
         "마그마 피니시",
         "초합체 기술"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot-master-v",
@@ -472,7 +502,8 @@
       "features": [
         "마스터 소드",
         "마스터 실드"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot2-alpha",
@@ -487,7 +518,8 @@
       "features": [
         "알파 슬래시",
         "알파 실드"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot2-beta",
@@ -502,7 +534,8 @@
       "features": [
         "베타 대시",
         "베타 캐논"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     },
     {
       "id": "tobot2-theta",
@@ -517,7 +550,8 @@
       "features": [
         "세타 크래시",
         "파괴 모드"
-      ]
+      ],
+      "image_url": "https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif"
     }
   ]
 }

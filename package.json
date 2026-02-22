@@ -8,10 +8,15 @@
     "collect:metalcardbot": "tsx src/collect-metalcardbot.ts",
     "collect:all": "tsx src/collect-tobot.ts && tsx src/collect-metalcardbot.ts",
     "scrape:images": "tsx src/scrape-images.ts",
+    "crawl": "tsx src/crawl-images.ts",
+    "crawl:tobot": "tsx src/crawl-images.ts --target tobot",
+    "crawl:metalcardbot": "tsx src/crawl-images.ts --target metalcardbot",
+    "crawl:fast": "tsx src/crawl-images.ts --skip-bg",
     "generate:seed": "tsx src/generate-seed.ts",
     "dev": "tsx src/collect-tobot.ts"
   },
   "dependencies": {
+    "@imgly/background-removal-node": "^1.4.5",
     "axios": "^1.7.0",
     "chalk": "^5.3.0",
     "cheerio": "^1.0.0",
